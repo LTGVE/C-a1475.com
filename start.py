@@ -24,7 +24,7 @@ print "|  _ \|  _  \  ___  ___         / \ | |_| |_ __ _  ___| | __           "
 print "| | | | | |  |/ _ \/ __|       / _ \| __| __/ _` |/ __| |/ /        "
 print "| |_| | |_|  | (_) \__ \      / ___ \ |_| || (_| | (__|   <      "
 print "|____/|_____/ \___/|___/     /_/   \_\__|\__\__,_|\___|_|\_\                       "
-print "你看你玛瑙"
+print "?"
 
 
 print
@@ -32,7 +32,7 @@ ip = raw_input("IP : ")
 port = input("port : ")
 
 os.system("clear")
-os.system("即将启动")
+os.system("Starting")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
