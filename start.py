@@ -51,8 +51,9 @@ while True:
      port = port + 1
      if port == 65535:
        port = 1
-       if port == 65535
+       if port == 65535:
            frequency = frequency + 1
 
        print" Send %s to %s  of Through port 1-65535 frequency %s"%(sent,ip,frequency)
 
+#fixed a bug to if port == 65535
