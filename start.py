@@ -23,10 +23,15 @@ print "|  _ \|  _  \  ___  ___         / \ | |_| |_ __ _  ___| | __ "
 print "| | | | | |  |/ _ \/ __|       / _ \| __| __/ _` |/ __| |/ /"
 print "| |_| | |_|  | (_) \__ \      / ___ \ |_| || (_| | (__|   <"
 print "|____/|_____/ \___/|___/     /_/   \_\__|\__\__,_|\___|_|\_\ "
-print ""
+print "Please input the password"
+password = input("Password : ")
+if password ！== 114514DDoS
+  os.exit()
+     
+   
 
 
-print
+
 ip = raw_input("IP : ")
 port = input("port : ")
 
